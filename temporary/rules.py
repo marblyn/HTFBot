@@ -22,7 +22,8 @@ class Rules(commands.Cog):
         )
         embed1.add_field(
             name="Server Rules",
-            value="https://docs.google.com/document/d/10KYIGh5H1lOHLQkVHPEQb8Z2zHSQcvNVpfQq7GtxNMg/edit"
+            value="https://docs.google.com/document/d/10KYIGh5H1lOHLQkVHPEQb8Z2zHSQcvNVpfQq7GtxNMg/edit",
+            inline=False
         )
 
         # Embed 2 - Channel Setup
@@ -40,7 +41,8 @@ class Rules(commands.Cog):
                 "<#1165649355370401832> - For discussion about other Mondo Media shows. HTF can still be talked about there.\n"
                 "<#1165785921690546246> - Main server VC.\n"
                 "<#1189036953920876545> - Extra VC incase the other one is full."
-            )
+            ),
+            inline=False
         )
         embed2.add_field(
             name="Miscellaneous Channels",
@@ -51,7 +53,8 @@ class Rules(commands.Cog):
                 "<#1165650655122309251> - Other Tupperbox roleplaying (or just general roleplaying).\n"
                 "<#1165657360157651076> - For advertising servers, projects, or other stuff you're working on.\n"
                 "<#1165782608479785000> - For playing music with the bot."
-            )
+            ),
+            inline=False
         )
 
         # Embed 3 - Other Info
@@ -65,14 +68,16 @@ class Rules(commands.Cog):
                 "When using this server, please keep in mind of Discord's Terms of Service and Community Guidelines!\n"
                 "https://discord.com/terms\n"
                 "https://discord.com/guidelines"
-            )
+            ),
+            inline=False
         )
         embed3.add_field(
             name="Invite Links",
             value=(
                 "https://discord.gg/happytreefriends\n"
                 "https://discord.gg/qj67XZvAFc"
-            )
+            ),
+            inline=False
         )
         embed3.add_field(
             name="Appeals",
@@ -80,7 +85,8 @@ class Rules(commands.Cog):
                 "Have you been given a warning or muted and believe it's unfair? "
                 "Friend of yours has been banned? Join the appeals server and create a ticket!\n"
                 "https://discord.gg/e6MPyeNJbE"
-            )
+            ),
+            inline=False
         )
 
         for embed in [embed1, embed2, embed3]:
