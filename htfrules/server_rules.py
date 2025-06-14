@@ -86,7 +86,7 @@ RULES = {
     "b": {
         1: {
             "text": "Spamming the chat",
-            "subtext": "Using bots is okay, don't go too overboard with them.\n- Do not purposefully spam the chat."
+            "subtext": "Using bots outside of <#1346712978115792897> are fine (some commands do not work outside of that channel), don't go too overboard with them.\n- Reacting to one or more messages with a bunch of reactions (or putting a reaction on a bunch of messages) also falls under this.\n- Starting message chains or participating in one can cause you to be muted.\n-Fear Mongering/chainmail (messages that are meant to deceive/scare people “You will get ddosed if you accept this person's friend request!”) **will** fall under this rule."
         },
         2: {
             "text": "Not listening to Server Staff",
